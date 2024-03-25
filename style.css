@@ -1,0 +1,169 @@
+
+
+*{ margin: opx;
+    padding: 0;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Styles personnalisés pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+.navbar {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+}
+
+.navbar-brand {
+    color: #fff; /* Couleur du texte du logo */
+    font-size: 24px; /* Taille de police du logo */
+    font-weight: bold; /* Poids de la police du logo */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Alignement des éléments à droite de la barre de navigation */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Couleur du texte des liens de navigation */
+    font-weight: bold; /* Poids de la police des liens de navigation */
+    margin-left: 20px; /* Espacement entre les liens de navigation */
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Souligner les liens de navigation au survol */
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    color: #fff; /* Couleur du texte du logo */
+    font-size: 20px; /* Taille de police du logo */
+    font-weight: bold; /* Poids de la police du logo */
+    color: #fff; /* Couleur du texte des liens de navigation */
+    margin-left: auto; /* Alignement des éléments à droite de la barre de navigation */
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Styles personnalisés pour la section de produits */
+#products {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#products h2 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content:space-between;  
+     overflow: hidden; /* Pour cacher le débordement de l'image si nécessaire */
+     
+}
+.photo{
+    border-radius: 50px; /* Pour rendre les coins arrondis */
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Styles personnalisés pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+        max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de sa conteneur */
+        height: auto; /* Garantit que l'image conserve son ratio hauteur/largeur */
+        width: 100%; /* Définit la largeur de l'image à 100% de sa conteneur */
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+.card-body{
+    padding: 20px; /* Pour ajouter de l'espace à l'intérieur de chaque carte */
+
+}
